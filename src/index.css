@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Alexandria', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-body: 'IBM Plex Sans Arabic', 'Alexandria', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Subtle water wave secondary decorative line */
+.water-wave-border {
+  background: linear-gradient(90deg, transparent 0%, #38bdf8 30%, #0284c7 70%, transparent 100%);
+  height: 2px;
+}
+

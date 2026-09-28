@@ -1,0 +1,6 @@
+{
+  "name": "شركة الفردوس لأنظمة معالجة المياه والفلاتر",
+  "description": "حلول متكاملة ومستلزمات أنظمة معالجة المياه والفلاتر في الإسكندرية ومصر، للفنيين والمحلات والعملاء.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
